@@ -8,3 +8,13 @@ D:\Opendata\Code\ProjectD\ProjectD\obj\Debug\netcoreapp1.1\UserSecretsAssemblyIn
 D:\Opendata\Code\ProjectD\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.AssemblyInfo.cs
 D:\Opendata\Code\ProjectD\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.dll
 D:\Opendata\Code\ProjectD\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.pdb
+D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.deps.json
+D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.runtimeconfig.json
+D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.runtimeconfig.dev.json
+D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.dll
+D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.pdb
+D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.csprojResolveAssemblyReference.cache
+D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.AssemblyInfo.cs
+D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.dll
+D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.pdb

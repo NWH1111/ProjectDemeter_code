@@ -10955,10 +10955,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Opendata\\Code\\ProjectD\\ProjectD\\ProjectD.csproj",
+      "projectUniqueName": "D:\\Opendata\\Code\\ProjectD\\ProjectD.csproj",
       "projectName": "ProjectD",
-      "projectPath": "D:\\Opendata\\Code\\ProjectD\\ProjectD\\ProjectD.csproj",
-      "outputPath": "D:\\Opendata\\Code\\ProjectD\\ProjectD\\obj\\",
+      "projectPath": "D:\\Opendata\\Code\\ProjectD\\ProjectD.csproj",
+      "outputPath": "D:\\Opendata\\Code\\ProjectD\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
