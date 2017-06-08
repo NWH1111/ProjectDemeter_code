@@ -10950,15 +10950,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\William\\.nuget\\packages\\": {}
+    "C:\\Users\\YuHsiang Wu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Opendata\\Code\\ProjectD\\ProjectD.csproj",
+      "projectUniqueName": "D:\\code\\ProjectDemeter_code\\ProjectD\\ProjectD.csproj",
       "projectName": "ProjectD",
-      "projectPath": "D:\\Opendata\\Code\\ProjectD\\ProjectD.csproj",
-      "outputPath": "D:\\Opendata\\Code\\ProjectD\\obj\\",
+      "projectPath": "D:\\code\\ProjectDemeter_code\\ProjectD\\ProjectD.csproj",
+      "outputPath": "D:\\code\\ProjectDemeter_code\\ProjectD\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

@@ -18,3 +18,13 @@ D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.AssemblyInfo.cs
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.dll
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.pdb
+D:\code\ProjectDemeter_code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.deps.json
+D:\code\ProjectDemeter_code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.runtimeconfig.json
+D:\code\ProjectDemeter_code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.runtimeconfig.dev.json
+D:\code\ProjectDemeter_code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.dll
+D:\code\ProjectDemeter_code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.pdb
+D:\code\ProjectDemeter_code\ProjectD\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\code\ProjectDemeter_code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.AssemblyInfo.cs
+D:\code\ProjectDemeter_code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.dll
+D:\code\ProjectDemeter_code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.pdb
+D:\code\ProjectDemeter_code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.csprojResolveAssemblyReference.cache
