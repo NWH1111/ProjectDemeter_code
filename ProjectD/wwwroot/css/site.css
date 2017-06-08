@@ -2,8 +2,6 @@
     padding-top: 50px;
     padding-bottom: 20px;
     background-color:antiquewhite;
-    background-image:url(../images/1.jpg);
-    background-repeat:no-repeat;
 }
 
 /* Wrapping element */
@@ -36,7 +34,6 @@ textarea {
 .carousel-inner .item img[src$=".jpg"] {
     top: 0;
     left: 0;
-    min-width: 80%;
 }
 
 

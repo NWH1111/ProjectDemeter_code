@@ -7,3 +7,4 @@ D:\Opendata\Code\ProjectD\obj\Release\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 D:\Opendata\Code\ProjectD\obj\Release\netcoreapp1.1\ProjectD.AssemblyInfo.cs
 D:\Opendata\Code\ProjectD\obj\Release\netcoreapp1.1\ProjectD.dll
 D:\Opendata\Code\ProjectD\obj\Release\netcoreapp1.1\ProjectD.pdb
+D:\Opendata\Code\ProjectD\obj\Release\netcoreapp1.1\ProjectD.csprojResolveAssemblyReference.cache
