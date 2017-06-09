@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 namespace ProjectD.Controllers
 {
     public class HomeController : Controller
@@ -27,6 +29,8 @@ namespace ProjectD.Controllers
             return View();
         }
 
+ 
+
         public IActionResult iMap()
         {
 
@@ -44,5 +48,7 @@ namespace ProjectD.Controllers
         {
             return View();
         }
+
+ 
     }
 }

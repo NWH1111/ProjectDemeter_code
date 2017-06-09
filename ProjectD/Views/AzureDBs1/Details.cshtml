@@ -1,0 +1,60 @@
+@model ProjectD.Models.AzureDB
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AzureDB</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.市集名稱)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.市集名稱)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.市集介紹)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.市集介紹)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.營業時間)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.營業時間)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.電話)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.電話)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GPS)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GPS)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.營業地址)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.營業地址)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.交通資訊)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.交通資訊)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.縣市">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

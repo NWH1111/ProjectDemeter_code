@@ -13,6 +13,8 @@ using ProjectD.Data;
 using ProjectD.Models;
 using ProjectD.Services;
 
+ 
+
 namespace ProjectD
 {
     public class Startup
@@ -84,5 +86,7 @@ namespace ProjectD
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
+
     }
 }

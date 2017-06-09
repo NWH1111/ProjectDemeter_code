@@ -1,9 +1,6 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:antiquewhite;
-    background-image:url(../images/1.jpg);
-    background-repeat:no-repeat;
 }
 
 /* Wrapping element */
@@ -23,6 +20,7 @@ textarea {
 /* Carousel */
 
 .carousel {
+    margin-bottom: 60px;
     position: relative;
     opacity: 0.9;
 }
