@@ -19,6 +19,7 @@ namespace ProjectD.Controllers
             _context = context;    
         }
 
+
         // GET: AzureDBs1
         public async Task<IActionResult> Index()
         {
