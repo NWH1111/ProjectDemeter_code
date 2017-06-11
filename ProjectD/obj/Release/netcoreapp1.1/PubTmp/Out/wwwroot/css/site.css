@@ -29,15 +29,39 @@ textarea {
     font-size: 20px;
     line-height: 1.4;
 }
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".jpg"] {
-    top: 0;
-    left: 0;
-    min-width: 80%;
+.carousel .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    width: 100%;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel .one {
+    background: url(../images/1.jpg) no-repeat center center fixed;
 }
 
+.carousel .two {
+    background: url(../images/2.jpg) no-repeat center center fixed;
+}
 
+.carousel .three {
+    background: url(../images/3.jpg) no-repeat center center fixed;
+}
+
+.carousel .four {
+    background: url(../images/4.jpg) no-repeat center center fixed;
+}
+.carousel .active {
+opacity: 1 !important;
+}
+
+ 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -56,10 +80,39 @@ textarea {
     margin-left: 10px;
 }
 
+.marketing_P .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.marketing_P h2 {
+    font-weight: normal;
+}
+
+.marketing_P .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.marketing_P {
+    /* The image used */
+    /*background-image: url("../images/2.jpg");*/
+ 
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 /* Featurettes
 ------------------------- */
-
 .featurette-divider {
     margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -93,8 +146,37 @@ textarea {
 
         /* The navbar becomes detached from the top, so we round the corners */
         .navbar-wrapper .navbar {
-            border-radius: 4px;
+            border-bottom-color: white;
         }
+
+    /* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+    .navbar a {
+        font-size: 1.3em !important;
+        color: black;
+    }
+
+    /* Flip around the padding for proper display in narrow viewports */
+    .navbar-wrapper > .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-wrapper .navbar {
+        background: rgb(246,246,246); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(246,246,246,1) -1%, rgba(246,246,246,1) -1%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 17%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(246,246,246,1) -1%,rgba(246,246,246,1) -1%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 0%,rgba(237,237,237,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 17%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(246,246,246,1) -1%,rgba(246,246,246,1) -1%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 0%,rgba(237,237,237,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 17%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    }
+
+    .navbar-wrapper .navbar-brand {
+        background-color: rgb(173,199,67);
+        width: auto;
+    }
 
     /* Bump up size of carousel content */
     .carousel-caption p {
@@ -106,6 +188,7 @@ textarea {
     .featurette-heading {
         font-size: 50px;
     }
+
 }
 
 
@@ -116,3 +199,29 @@ textarea {
         display: none;
     }
 }
+
+#footerwrap {
+    padding-top: 140px;
+    padding-bottom: 120px;
+    background-image: url('../images/Background.png');
+}
+
+.row-centered .col-lg-4 p {
+    font-size: 15px;
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/2.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+ 

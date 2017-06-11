@@ -44,6 +44,15 @@ namespace ProjectD.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult iShop(String TEST, String TEST2)
+        {
+            var name = TEST;
+            var name2 = TEST2;
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
