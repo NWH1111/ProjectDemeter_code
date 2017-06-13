@@ -8,6 +8,7 @@
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/carousel.css" runat="server" />
         <link rel="stylesheet" href="~/css/site.css" runat="server" />
     </environment>
     <environment names="Staging,Production">
@@ -61,22 +62,23 @@
                         <span class="icon-bar"></span>
                     </button>
                     <form class="navbar-brand">
-                            <b asp-area="" asp-controller="Home" asp-action="Index"><font color="White" size="10">i農管家</font></b>
+                            <b ><font color="White" size="10">i農管家</font></b>
                             <br />
-                            <b asp-area="" asp-controller="Home" asp-action="Index"><font color="black" size="2">不只用心，更貼近你心</font></b>
+                            <b ><font color="black" size="2">不只用心，更貼近你心</font></b>
                     </form>
                      
                     
 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                <div class="navbar-collapse collapse navbar-collapse-center">
+                    <ul class="nav navbar-nav navbar-center">
                         <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                         <li><a href="#aaa">關於i農管家</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="iMap" >i農地圖</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="iShop">iShop</a></li>
-                        <li><a asp-area="" asp-controller="AzureDBs1" asp-action="Index">DBTest</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Client_Template">iShop</a></li>
                     </ul>
-                    @await Html.PartialAsync("_LoginPartial")
+                   <!-- await Html.PartialAsync("_LoginPartial")
+                       <li><a asp-area="" asp-controller="Home" asp-action="iShop">iShop</a></li>
+                        <li><a asp-area="" asp-controller="AzureDBs1" asp-action="Index">DBTest</a></li>-->
                 </div>
             </div>
         </nav>
@@ -94,9 +96,6 @@
 
             <div class="col-lg-4">
                 <p><b>Living in the amazing Taiwan.</b></p>
-            </div>
-            <div class="col-lg-4">
-                <p><b>hello@instant.com</b></p>
             </div>
         </div>
     </div>

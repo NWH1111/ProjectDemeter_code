@@ -37,6 +37,14 @@ namespace ProjectD.Controllers
             return View();
         }
 
+
+        public IActionResult Client_Template()
+        {
+            ViewData["Message"] = "Your iSHOP.";
+
+            return View();
+        }
+
         public IActionResult iShop()
         {
             ViewData["Message"] = "Your iSHOP.";

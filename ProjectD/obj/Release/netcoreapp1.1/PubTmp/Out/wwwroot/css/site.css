@@ -22,7 +22,7 @@ textarea {
 .carousel {
     margin-bottom: 60px;
     position: relative;
-    opacity: 0.9;
+    
 }
 
 .carousel-caption p {
@@ -43,25 +43,22 @@ textarea {
     background-size: cover;
 }
 .carousel .one {
-    background: url(../images/1.jpg) no-repeat center center fixed;
+    background: url(../images/1.png) no-repeat center center fixed;
 }
 
 .carousel .two {
-    background: url(../images/2.jpg) no-repeat center center fixed;
+    background: url(../images/2.png) no-repeat center center fixed;
 }
 
 .carousel .three {
-    background: url(../images/3.jpg) no-repeat center center fixed;
+    background: url(../images/3.png) no-repeat center center fixed;
 }
 
 .carousel .four {
-    background: url(../images/4.jpg) no-repeat center center fixed;
-}
-.carousel .active {
-opacity: 1 !important;
+    background: url(../images/4.png) no-repeat center center fixed;
 }
 
- 
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -114,7 +111,7 @@ opacity: 1 !important;
 /* Featurettes
 ------------------------- */
 .featurette-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 100px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -123,11 +120,12 @@ opacity: 1 !important;
     line-height: 1;
     letter-spacing: -1px;
 }
-
-
+.featurette {
+    background-image: url(../images/BK.jpg);
+}
+ 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
@@ -148,6 +146,22 @@ opacity: 1 !important;
         .navbar-wrapper .navbar {
             border-bottom-color: white;
         }
+    ul.nav a:hover {
+        color:gainsboro !important;
+    }
+    .navbar .brand, .navbar .nav > li > a {
+        color: black;
+    }
+
+    .navbar-center {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar-collapse-center {
+        text-align: center;
+    }
 
     /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -175,7 +189,9 @@ opacity: 1 !important;
 
     .navbar-wrapper .navbar-brand {
         background-color: rgb(173,199,67);
-        width: auto;
+        height:160px;
+        min-width:280px;
+        
     }
 
     /* Bump up size of carousel content */
@@ -222,6 +238,6 @@ opacity: 1 !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
 
+ 
  
