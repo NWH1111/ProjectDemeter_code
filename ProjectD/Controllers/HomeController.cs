@@ -66,12 +66,5 @@ namespace ProjectD.Controllers
             return View();
         }
 
-        public IActionResult DBquery()
-        {
-
-
-            return View();
-        }
-
     }
 }
