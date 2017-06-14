@@ -120,7 +120,7 @@ textarea {
     line-height: 1;
     letter-spacing: -1px;
 }
-.featurette {
+.featurette_intro {
     background-image: url(../images/BK.jpg);
 }
  
@@ -227,17 +227,6 @@ textarea {
     color: white;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("../images/2.jpg");
-    /* Set a specific height */
-    min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
  
  
