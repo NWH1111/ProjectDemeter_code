@@ -1,8 +1,27 @@
 ﻿@{
     ViewData["Title"] = "Contact";
     ViewData["test"] = "test for sending message2";
+    if(ViewBag.Result != null)
+    {
+        if (ViewBag.Result == "NO")
+        {
+            ViewBag.Result = "noooooooooooooooooooo";
+        }
+
+    }
+
 }
 <form method="post" action="iShop">
+    <h2>
+        @{if(ViewBag.Result != null)
+            {
+
+                @ViewBag.Result;
+
+
+            }
+            }
+            .</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -47,7 +66,14 @@
                 <img src="~/images/3.jpg" alt="Visual Studio" class="img-responsive" />
                 <div class="carousel-caption" role="option">
                     <p>
-                    <p id="NewStringBox" color:deeppink>請輸入新的文字來改變這段文字</p>
+                    <p id="NewStringBox" color:deeppink>請輸入新的文字來改變這段文字@{if (ViewBag.Result != null)
+                        {
+
+                            @ViewBag.Result;
+
+
+            }
+                    }</p>
                     <input type="text" name="TEST2" id="StringTextBox" style="background-color:pink; ">
                     <input type="button" value="變更文字" onclick="ChangeString()">
                         There are powerful new features in Visual Studio for building modern web apps.
