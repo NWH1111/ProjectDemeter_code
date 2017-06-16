@@ -25,6 +25,23 @@ textarea {
     
 }
 
+#myCarousel2 {
+    position: relative;
+    padding-left: 118px;
+    padding-right: 128px;
+    padding-top: 16px;
+}
+
+.Regist_container {
+    background-image:url("../images/Regist/bk_.png");
+}
+
+.carousel-caption {
+    text-align: left;
+    position: relative;
+    padding-top: 150px;
+}
+
 .carousel-caption p {
     font-size: 20px;
     line-height: 1.4;
@@ -41,7 +58,23 @@ textarea {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: rgba(0, 0, 0, .0001);
 }
+#myCarousel2 .carousel .item{
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    width: 100%;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+
 .carousel .one {
     background: url(../images/1.png) no-repeat center center fixed;
 }
@@ -120,7 +153,7 @@ textarea {
     line-height: 1;
     letter-spacing: -1px;
 }
-.featurette {
+.featurette_intro {
     background-image: url(../images/BK.jpg);
 }
  
@@ -132,36 +165,6 @@ textarea {
         margin-top: 20px;
     }
 
-        .navbar-wrapper .container {
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-
-        .navbar-wrapper .navbar {
-            padding-right: 0;
-            padding-left: 0;
-        }
-
-        /* The navbar becomes detached from the top, so we round the corners */
-        .navbar-wrapper .navbar {
-            border-bottom-color: white;
-        }
-    ul.nav a:hover {
-        color:gainsboro !important;
-    }
-    .navbar .brand, .navbar .nav > li > a {
-        color: black;
-    }
-
-    .navbar-center {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar-collapse-center {
-        text-align: center;
-    }
 
     /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -179,19 +182,12 @@ textarea {
         padding-left: 0;
     }
 
-    .navbar-wrapper .navbar {
-        background: rgb(246,246,246); /* Old browsers */
-        background: -moz-linear-gradient(top, rgba(246,246,246,1) -1%, rgba(246,246,246,1) -1%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 17%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, rgba(246,246,246,1) -1%,rgba(246,246,246,1) -1%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 0%,rgba(237,237,237,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 17%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, rgba(246,246,246,1) -1%,rgba(246,246,246,1) -1%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 0%,rgba(237,237,237,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 17%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-    }
+
 
     .navbar-wrapper .navbar-brand {
-        background-color: rgb(173,199,67);
-        height:160px;
-        min-width:280px;
-        
+        /* background-color: rgb(173,199,67);*/
+        height: 70px;
+        min-width: 280px;
     }
 
     /* Bump up size of carousel content */
@@ -227,17 +223,5 @@ textarea {
     color: white;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("../images/2.jpg");
-    /* Set a specific height */
-    min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
  
- 
+​
