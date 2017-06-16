@@ -132,36 +132,6 @@ textarea {
         margin-top: 20px;
     }
 
-        .navbar-wrapper .container {
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-
-        .navbar-wrapper .navbar {
-            padding-right: 0;
-            padding-left: 0;
-        }
-
-        /* The navbar becomes detached from the top, so we round the corners */
-        .navbar-wrapper .navbar {
-            border-bottom-color: white;
-        }
-    ul.nav a:hover {
-        color:gainsboro !important;
-    }
-    .navbar .brand, .navbar .nav > li > a {
-        color: black;
-    }
-
-    .navbar-center {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar-collapse-center {
-        text-align: center;
-    }
 
     /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -179,19 +149,12 @@ textarea {
         padding-left: 0;
     }
 
-    .navbar-wrapper .navbar {
-        background: rgb(246,246,246); /* Old browsers */
-        background: -moz-linear-gradient(top, rgba(246,246,246,1) -1%, rgba(246,246,246,1) -1%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 17%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, rgba(246,246,246,1) -1%,rgba(246,246,246,1) -1%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 0%,rgba(237,237,237,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 17%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, rgba(246,246,246,1) -1%,rgba(246,246,246,1) -1%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 0%,rgba(237,237,237,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 0%,rgba(255,255,255,1) 17%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-    }
+
 
     .navbar-wrapper .navbar-brand {
-        background-color: rgb(173,199,67);
-        height:160px;
-        min-width:280px;
-        
+        /* background-color: rgb(173,199,67);*/
+        height: 70px;
+        min-width: 280px;
     }
 
     /* Bump up size of carousel content */
@@ -227,6 +190,3 @@ textarea {
     color: white;
 }
 
-
- 
- 

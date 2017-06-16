@@ -14,7 +14,7 @@ D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.runtimeconfig.dev.jso
 D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.dll
 D:\Opendata\Code\ProjectD\bin\Debug\netcoreapp1.1\ProjectD.pdb
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.csprojResolveAssemblyReference.cache
-D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.AssemblyInfo.cs
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.dll
 D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\ProjectD.pdb
+D:\Opendata\Code\ProjectD\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

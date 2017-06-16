@@ -12,8 +12,7 @@ using Microsoft.Extensions.Logging;
 using ProjectD.Data;
 using ProjectD.Models;
 using ProjectD.Services;
-
- 
+using Microsoft.AspNetCore.Mvc;
 
 namespace ProjectD
 {
@@ -49,7 +48,12 @@ namespace ProjectD
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc();
+            //services.AddMvc();
+            services.AddMvc(options =>
+            {
+                options.SslPort = 44304;
+                options.Filters.Add(new RequireHttpsAttribute());
+            });
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -76,6 +80,12 @@ namespace ProjectD
             app.UseStaticFiles();
 
             app.UseIdentity();
+
+            app.UseFacebookAuthentication(new FacebookOptions()
+            {
+                AppId = "613203752209963",
+                AppSecret = "5bcbed7f3abe7a6add0a2bc0cc5b04d3"
+            }); 
 
             // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
 
